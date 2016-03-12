@@ -6,5 +6,7 @@ In this implementation of the Calendar, the event is stored in a TextEdit box an
 
 Data is saved through stored preferences.
 
+The calendar was implemented using Android's built-in CalendarView.  There doesn't seem to be a way to edit infortmation about particular days.  My first guess is using each date's ID (i.e. the specific long value that is unique to each MM/DD/YYYY) to create separate intent calls to EventActivity.
+
 Bugs:
 -Editing an event for one day edits the events for all days.
